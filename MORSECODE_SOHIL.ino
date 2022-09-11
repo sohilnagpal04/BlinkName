@@ -11,17 +11,17 @@ void setup() {
 void dot_morsecode()
 {
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
+  delay(500);                       // wait for half second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);
+  delay(500);
 }
 
 void dash_morsecode()
 {
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(3000);                       // wait for 3 seconds
+  delay(1500);                       // wait for one and a half seconds
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);
+  delay(500);
   
 }
 
